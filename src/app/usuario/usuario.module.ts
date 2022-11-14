@@ -5,6 +5,7 @@ import { ListarUsuarioComponent } from './listar-usuario/listar-usuario.componen
 import { RouterModule } from '@angular/router';
 import { AngularMaterialModule } from '../angular-material/angular-material.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PipesModule } from '../shared/pipes/pipes.module';
 
 // p q n funcionou a importação do FormsModule e ReactiveFormsModule aqui???
 
@@ -18,7 +19,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     RouterModule,
     AngularMaterialModule,
     ReactiveFormsModule,
-
+    PipesModule
   ]
 })
 export class UsuarioModule { }
